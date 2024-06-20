@@ -33,6 +33,22 @@ void Rule5(void)
 	{
 		uint32_t var4 = 6U;
 	}
+	uin32_t var5 = 5U;
+	{
+		uint32_t var1 = 6U;
+	}
+	uin32_t var6 = 5U;
+	{
+		uint32_t var2 = 6U;
+	}
+	uin32_t var7 = 5U;
+	{
+		uint32_t var3 = 6U;
+	}
+	uin32_t var8 = 5U;
+	{
+		uint32_t var4 = 6U;
+	}
 #endif
 	
 #ifdef Rule_5_3
@@ -53,6 +69,16 @@ void Rule5(void)
 	}
 #endif
 	
+#ifdef Rule_5_3_1
+	{
+		typedef char char_t_1;
+	}
+	{
+		typedef unsigned char char_t_1;
+	}
+#endif
+
+
 #ifdef Rule_5_4
 	#warning "Rule 5.4(required) is not checked by IAR MISRA C tool
 	#warning "A tag name shall be a unique identifier."
