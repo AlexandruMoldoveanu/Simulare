@@ -28,12 +28,24 @@ void Rule5(void)
 	#warning "Rule 5.4(required) is not checked by IAR MISRA C tool
 	#warning "A tag name shall be a unique identifier."
 #endif
-	
+	#ifdef Rule_5_4
+	#warning "Rule 5.4(required) is not checked by IAR MISRA C tool
+	#warning "A tag name shall be a unique identifier."
+#endif
+#ifdef Rule_5_4
+	#warning "Rule 5.4(required) is not checked by IAR MISRA C tool
+	#warning "A tag name shall be a unique identifier."
+#endif
+
 #ifdef Rule_5_5
 	#warning "Rule 5.5(advisory) is not checked by IAR MISRA C tool
 	#warning "No object or function identifier with static storage duration should be reused."
 #endif
 
+#ifdef Rule_5_5
+	#warning "Rule 5.5(advisory) is not checked by IAR MISRA C tool
+	#warning "No object or function identifier with static storage duration should be reused."
+#endif
 #ifdef Rule_5_6
 	#warning "Rule 5.6(advisory) is not checked by IAR MISRA C tool
 	#warning "No identifier in one namespace should have the same spelling as an identifier in another namespace, with the exception of structure member and union member names."

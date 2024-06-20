@@ -15,6 +15,22 @@ void Rule6(void)
 	int t;
 	#warning "Rule 6.3 is disabled to allow test plan type"
 #endif
+
+	
+#ifdef Rule_6_3
+	int t;
+	#warning "Rule 6.3 is disabled to allow test plan type"
+#endif
+	
+#ifdef Rule_6_3
+	int t;
+	#warning "Rule 6.3 is disabled to allow test plan type"
+#endif
+	
+#ifdef Rule_6_3
+	int t;
+	#warning "Rule 6.3 is disabled to allow test plan type"
+#endif
 	
 #ifdef Rule_6_4
 	struct s{

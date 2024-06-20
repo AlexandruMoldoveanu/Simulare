@@ -2,6 +2,7 @@
 #define _RULE_7_
 
 /* #define Rule_7_1 */
+/* #define Rule_7_1 */
 
 void Rule7(void);
 
