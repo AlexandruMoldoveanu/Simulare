@@ -6,10 +6,6 @@
 /* #define Rule_6_3 */
 /* #define Rule_6_4 */
 /* #define Rule_6_5 */
-/* #define Rule_6_4 */
-/* #define Rule_6_5 */
-/* #define Rule_6_4 */
-/* #define Rule_6_5 */
 
 void Rule6(void);
 

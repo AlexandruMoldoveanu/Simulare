@@ -8,8 +8,6 @@
 /* #define Rule_5_5 */
 /* #define Rule_5_6 */
 /* #define Rule_5_7 */
-/* #define Rule_5_7 */
-/* #define Rule_5_7 */
 
 void Rule5(void);
 
