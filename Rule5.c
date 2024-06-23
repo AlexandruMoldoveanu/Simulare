@@ -71,26 +71,6 @@ void Rule5(void)
 	{
 		uint32_t var3 = 6U;
 	}
-	uin32_t var42 = 5U;
-	{
-		uint32_t var4 = 6U;
-	}
-	uin32_t var52 = 5U;
-	{
-		uint32_t var1 = 6U;
-	}
-	uin32_t var62 = 5U;
-	{
-		uint32_t var2 = 6U;
-	}
-	uin32_t var72 = 5U;
-	{
-		uint32_t var3 = 6U;
-	}
-	uin32_t var82 = 5U;
-	{
-		uint32_t var4 = 6U;
-	}
 #endif
 	
 #ifdef Rule_5_3
@@ -103,30 +83,6 @@ void Rule5(void)
 #endif
 
 #ifdef Rule_5_3_2
-	{
-		typedef char char_t_t;
-	}
-	{
-		typedef unsigned char char_t_t;
-	}
-#endif
-#ifdef Rule_5_3_9999
-	{
-		typedef char char_t_t;
-	}
-	{
-		typedef unsigned char char_t_t;
-	}
-#endif
-#ifdef Rule_5_3_999
-	{
-		typedef char char_t_t;
-	}
-	{
-		typedef unsigned char char_t_t;
-	}
-#endif
-#ifdef Rule_5_3_99
 	{
 		typedef char char_t_t;
 	}
@@ -155,10 +111,6 @@ void Rule5(void)
 	#warning "No object or function identifier with static storage duration should be reused."
 #endif
 
-#ifdef Rule_5_6
-	#warning "Rule 5.6(advisory) is not checked by IAR MISRA C tool
-	#warning "No identifier in one namespace should have the same spelling as an identifier in another namespace, with the exception of structure member and union member names."
-#endif
 	
 #ifdef Rule_5_7
 	#warning "Rule 5.7(advisory) is not checked by IAR MISRA C tool
@@ -169,11 +121,7 @@ void Rule5(void)
 	#warning "Rule 5.4(required) is not checked by IAR MISRA C tool
 	#warning "A tag name shall be a unique identifier."
 #endif
-	
-#ifdef Rule_5_5_1
-	#warning "Rule 5.5(advisory) is not checked by IAR MISRA C tool
-	#warning "No object or function identifier with static storage duration should be reused."
-#endif
+
 
 #ifdef Rule_5_6_1
 	#warning "Rule 5.6(advisory) is not checked by IAR MISRA C tool
