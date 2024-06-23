@@ -25,8 +25,78 @@ void Rule5(void)
 	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa19 = 0U;
 	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa20 = 1U;
 #endif
-	
+
+#ifdef Rule_5_1_1
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa3 = 0U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa4 = 1U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa5 = 0U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa6 = 1U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa7 = 0U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa8 = 1U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa9 = 0U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa0 = 1U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa1 = 0U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa2 = 1U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa31 = 0U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa42 = 1U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa53 = 0U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa64 = 1U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa75 = 0U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa86 = 1U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa97 = 0U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa08 = 1U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa19 = 0U;
+	uint32_t abcdefghijklmnopqrstuvwxyz123456789aaa20 = 1U;
+#endif
+
 #ifdef Rule_5_2
+	uin32_t var1 = 5U;
+	{
+		uint32_t var1 = 6U;
+	}
+	uin32_t var2 = 5U;
+	{
+		uint32_t var2 = 6U;
+	}
+	uin32_t var3 = 5U;
+	{
+		uint32_t var3 = 6U;
+	}
+	uin32_t var4 = 5U;
+	{
+		uint32_t var4 = 6U;
+	}
+	uin32_t var5 = 5U;
+	{
+		uint32_t var1 = 6U;
+	}
+	uin32_t var6 = 5U;
+	{
+		uint32_t var2 = 6U;
+	}
+	uin32_t var7 = 5U;
+	{
+		uint32_t var3 = 6U;
+	}
+	uin32_t var8 = 5U;
+	{
+		uint32_t var4 = 6U;
+	}
+	uin32_t var12 = 5U;
+	{
+		uint32_t var1 = 6U;
+	}
+	uin32_t var22 = 5U;
+	{
+		uint32_t var2 = 6U;
+	}
+	uin32_t var32 = 5U;
+	{
+		uint32_t var3 = 6U;
+	}
+#endif
+
+#ifdef Rule_5_2_2
 	uin32_t var1 = 5U;
 	{
 		uint32_t var1 = 6U;
@@ -80,7 +150,30 @@ void Rule5(void)
 	{
 		typedef unsigned char char_t;
 	}
+	{
+		typedef char char_t;
+	}
+	{
+		typedef unsigned char char_t;
+	}
 #endif
+
+#ifdef Rule_5_3
+	{
+		typedef char char_t;
+	}
+	{
+		typedef unsigned char char_t;
+	}
+	{
+		typedef char char_t;
+	}
+	{
+		typedef unsigned char char_t;
+	}
+#endif
+
+eroare aici
 
 #ifdef Rule_5_3_2
 	{
