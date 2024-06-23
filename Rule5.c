@@ -1,6 +1,11 @@
 #include <stdint.h>
 #include "Rule5.h"
 
+aici se adauga o eroare
+int abcdefghijklmnopqrstuvwxyz123456789aaa0
+{{
+	as.
+}
 void Rule5(void)
 {
 #ifdef Rule_5_1
